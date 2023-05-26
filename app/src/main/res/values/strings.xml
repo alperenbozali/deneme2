@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">deneme</string>
+    <string name="menu">MENU</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="resim">Resim</string>
+    <string name="xderece">X Derece</string>
+    <string name="xsehri">X Sehri</string>
+    <string name="xtarih">X Tarih</string>
+    <string name="uyari">Uyarı Mesajı</string>
+    <string name="week">Week</string>
+</resources>

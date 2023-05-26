@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu" />
+
+        <SearchView
+            android:id="@+id/svarama"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content">
+
+        </SearchView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="656dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="267dp"
+            android:layout_height="96dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/resim"
+            app:srcCompat="@drawable/ic_launcher_background"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvderece"
+            android:layout_width="fill_parent"
+            android:layout_height="49dp"
+            android:gravity="end"
+            android:text="@string/xderece" />
+
+        <TextView
+            android:id="@+id/tvsehir"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:gravity="end"
+            android:text="@string/xsehri" />
+
+        <TextView
+            android:id="@+id/tvtarih"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:gravity="end"
+            android:text="@string/xtarih"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tvuyari"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:text="@string/uyari" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbsecenek"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:visibility="visible" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vpsayfa"
+            android:layout_width="388dp"
+            android:layout_height="52dp"
+            android:layout_weight="1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvfavoriler"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
